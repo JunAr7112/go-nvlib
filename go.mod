@@ -8,6 +8,9 @@ require (
 	github.com/stretchr/testify v1.11.1
 )
 
+// Use fork branch update_dgax100; fork's go.mod still declares module github.com/NVIDIA/go-nvml
+replace github.com/NVIDIA/go-nvml => github.com/JunAr7112/go-nvml v0.0.0-20260227171317-a77e89273a7a
+
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
