@@ -1,5 +1,5 @@
-github.com/JunAr7112/go-nvml v0.0.0-20260227171317-a77e89273a7a h1:1YfXa6ZM5aOpdlChMRMOo9nmpfvLiYNwW8wEpt9LgHs=
-github.com/JunAr7112/go-nvml v0.0.0-20260227171317-a77e89273a7a/go.mod h1:ahi2psRYoa+wYUBIrZPRO+wJs9lcvMhxSSkjjvsJJNQ=
+github.com/JunAr7112/go-nvml v0.0.0-20260306000700-acfe0bd1b3dc h1:dWjaY6NioajX4oE1pbLBkd1IzF8b/e40RRx9DRQZ+TU=
+github.com/JunAr7112/go-nvml v0.0.0-20260306000700-acfe0bd1b3dc/go.mod h1:ahi2psRYoa+wYUBIrZPRO+wJs9lcvMhxSSkjjvsJJNQ=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=

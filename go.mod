@@ -9,7 +9,7 @@ require (
 )
 
 // Use fork branch update_dgax100; fork's go.mod still declares module github.com/NVIDIA/go-nvml
-replace github.com/NVIDIA/go-nvml => github.com/JunAr7112/go-nvml v0.0.0-20260227171317-a77e89273a7a
+replace github.com/NVIDIA/go-nvml => github.com/JunAr7112/go-nvml v0.0.0-20260306000700-acfe0bd1b3dc
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

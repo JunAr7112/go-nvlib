@@ -1,4 +1,4 @@
-# github.com/NVIDIA/go-nvml v0.13.0-1 => github.com/JunAr7112/go-nvml v0.0.0-20260227171317-a77e89273a7a
+# github.com/NVIDIA/go-nvml v0.13.0-1 => github.com/JunAr7112/go-nvml v0.0.0-20260306000700-acfe0bd1b3dc
 ## explicit; go 1.20
 github.com/NVIDIA/go-nvml/pkg/dl
 github.com/NVIDIA/go-nvml/pkg/nvml
@@ -20,4 +20,4 @@ github.com/stretchr/testify/require
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3
-# github.com/NVIDIA/go-nvml => github.com/JunAr7112/go-nvml v0.0.0-20260227171317-a77e89273a7a
+# github.com/NVIDIA/go-nvml => github.com/JunAr7112/go-nvml v0.0.0-20260306000700-acfe0bd1b3dc
