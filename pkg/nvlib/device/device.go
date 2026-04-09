@@ -377,7 +377,7 @@ func (d *device) VisitMigProfiles(visit func(MigProfile) error) error {
 			for k := nvml.COMPUTE_INSTANCE_ENGINE_PROFILE_COUNT - 1; k >= 0; k-- {
 				p, err := d.lib.NewMigProfile(i, j, k, giProfileInfo.MemorySizeMB, memory.Total)
 				if err != nil {
-					return fmt.Errorf("error creating MIG profile: %v", err)
+					return fmt.Errorf("Skipping MIG profile (GI=%d, CI=%d, CIEng=%d): %v", i, j, k, err)
 				}
 
 				// NOTE: The NVML API doesn't currently let us query the set of
@@ -394,6 +394,9 @@ func (d *device) VisitMigProfiles(visit func(MigProfile) error) error {
 					continue
 				}
 				if (pi.C < pi.G) && ((pi.C * 2) > (pi.G + 1)) {
+					continue
+				}
+				if pi.CIProfileID == 7 && pi.GIProfileID != 9 {
 					continue
 				}
 
