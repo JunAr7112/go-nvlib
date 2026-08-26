@@ -338,10 +338,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```text
 #
-#	List of PCI ID's
+#	List of PCI IDs
 #
-#	Version: 2025.07.11
-#	Date:    2025-07-11 03:15:02
+#	Version: 2026.07.31
+#	Date:    2026-07-31 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
